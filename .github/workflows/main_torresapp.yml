@@ -53,4 +53,4 @@ jobs:
           app-name: 'torresapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_63C9A1E35E1041579A389889754E2708 }}
-          package: .
+          package: 'build'
